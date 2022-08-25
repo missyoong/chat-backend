@@ -1,1 +1,1 @@
-web: npx serve
+release: npx cowsay Profile är ju easy peasy!
