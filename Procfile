@@ -1,1 +1,1 @@
-release: npx cowsay Profile är ju easy peasy!
+release: npx cowsay Procfile är ju easy peasy!
