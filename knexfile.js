@@ -7,7 +7,7 @@ module.exports = {
   development: {
     client: "postgresql",
     connection:
-      "postgresql://postgres:AW7Zs3sEU4d1FKWbJjCa@containers-us-west-87.railway.app:7910/railway",
+      "postgresql://postgres:xwuusNjMNStdE035Aajm@containers-us-west-86.railway.app:7077/railway",
 
     pool: {
       min: 2,
