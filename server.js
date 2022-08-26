@@ -1,13 +1,13 @@
 const app = require("express")();
 const server = require("http").createServer(app);
-const PORT = "https://yoonikuu-chat-backend.herokuapp.com/";
+const PORT = "https://yoonikuu-chat-backend.herokuapp.com";
 const { nanoid } = require("nanoid");
 const db = require("./database");
 const fs = require("fs");
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "*",
+    origin: "https://yoonikuu-chat-backend.herokuapp.com",
   },
 });
 
