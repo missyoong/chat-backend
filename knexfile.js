@@ -4,10 +4,9 @@
  * @type { Object.<string, import("knex").Knex.Config> }
  */
 module.exports = {
-  development: {
+  production: {
     client: "postgresql",
-    connection:
-      "postgresql://postgres:xwuusNjMNStdE035Aajm@containers-us-west-86.railway.app:7077/railway",
+    connection: process.env.DATABASE_URL,
 
     pool: {
       min: 2,

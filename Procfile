@@ -1,1 +1,1 @@
-release: npx knex migrate:latest --knexfile ./data/knexfile.js
+release: npx knex migrate:latest --knexfile ./knexfile.js

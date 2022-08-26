@@ -1,6 +1,6 @@
 const app = require("express")();
 const server = require("http").createServer(app);
-const PORT = "https://yoonikuu-chat-backend.herokuapp.com";
+const PORT = process.env.PORT;
 const { nanoid } = require("nanoid");
 const db = require("./database");
 const fs = require("fs");
