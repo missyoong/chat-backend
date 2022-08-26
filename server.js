@@ -7,7 +7,7 @@ const fs = require("fs");
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "https://yoonikuu-chat-backend.herokuapp.com",
+    origin: "*",
   },
 });
 
