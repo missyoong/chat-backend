@@ -23,11 +23,11 @@ io.use((socket, next) => {
         room: data.room,
         timestamp: new Date(),
       });
-      fs.writeFile("data_log.txt", log, { flag: "a" }, (error) => {
+      fs.writeFile("datalog.txt", log, { flag: "a" }, (error) => {
         if (error) {
           console.log(error);
         } else {
-          console.log("data skrevs till data_log.txt");
+          console.log("data to datalog.txt");
         }
       });
     }
